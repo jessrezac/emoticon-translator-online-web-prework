@@ -8,7 +8,7 @@ def load_library(path)
 
   emoticons.each do |label, translations|
     library["get_meaning"][translations[1]] = label
-    library["get_emoticon"][translations[0]] = label
+    library["get_emoticon"][translations[0]] = translations[1]
   end
 
   library
