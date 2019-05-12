@@ -10,8 +10,9 @@ def load_library(path)
   get_meaning = Hash.new
 
   emoticons.each do |emoticon_name, interpretations|
-    binding.pry
     get_meaning[emoticon_name] = interpretations[0]
+    binding.pry
+
   end
 end
 
