@@ -1,4 +1,6 @@
 # require modules here
+require 'YAML'
+require 'pry'
 
 def load_library
   require 'emoticons.yml'
