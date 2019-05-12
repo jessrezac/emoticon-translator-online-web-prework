@@ -18,7 +18,6 @@ def get_japanese_emoticon(path, emoticon)
   # code goes here
   library = load_library(path)
   library["get_emoticon"].fetch(emoticon)
-  end
 end
 
 def get_english_meaning
