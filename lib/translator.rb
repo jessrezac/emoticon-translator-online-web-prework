@@ -7,6 +7,7 @@ def load_library(path)
   library = {"get_meaning" => {}, "get_emoticon" =>{}}
 
   emoticons.each do |label, translations|
+    binding.pry
   end
 
   library
