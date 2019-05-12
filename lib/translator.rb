@@ -11,6 +11,7 @@ def load_library(path)
 
   emoticons.each do |emoticon_name, interpretations|
     binding.pry
+    get_meaning[emoticon_name] = interpretations[0]
   end
 end
 
