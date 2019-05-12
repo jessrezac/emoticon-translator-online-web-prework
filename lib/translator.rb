@@ -12,8 +12,6 @@ def load_library(path)
     translation_key[get_meaning[emoticon_name]] = interpretations[0]
     translation_key[get_emoticon[emoticon_name]] = interpretaions[1]
   end
-
-  return {get_meaning, get_emoticon}
 end
 
 def get_japanese_emoticon
