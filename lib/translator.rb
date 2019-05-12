@@ -13,6 +13,8 @@ def load_library(path)
     translation_key[get_emoticon[emoticon_name]] = interpretaions[1]
     binding.pry
   end
+
+  translation_key
 end
 
 def get_japanese_emoticon
