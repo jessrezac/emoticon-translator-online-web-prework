@@ -9,8 +9,8 @@ def load_library(path)
   translation_key = Hash.new
 
   emoticons.each do |emoticon_name, interpretations|
-    translation_key[get_meaning[emoticon_name]] = interpretations[0]
-    translation_key[get_emoticon[emoticon_name]] = interpretaions[1]
+    translation_key[:get_meaning[emoticon_name]] = interpretations[0]
+    translation_key[:get_emoticon[emoticon_name]] = interpretaions[1]
     binding.pry
   end
 
