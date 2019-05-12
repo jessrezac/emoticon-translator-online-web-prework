@@ -4,7 +4,12 @@ require 'pry'
 
 def load_library(path)
   emoticons = YAML.load_file(path)
-  binding.pry
+
+  # this needs to return { get_emoticon => japanese, get_meaning => english }
+
+  emoticons.each do |emoticon_name, interpretations|
+    binding.pry
+  end
 end
 
 def get_japanese_emoticon
